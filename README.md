@@ -80,6 +80,8 @@ val_accuracy: 0.7071
 val_loss:     0.4985
 ```
 
+<img width="1577" height="989" alt="first method" src="https://github.com/user-attachments/assets/0d760a5f-95a3-4889-9b47-79a82bf1acce" />
+
 Although the model successfully learned relevant features from the MRI images, training was relatively expensive in terms of time and computational resources. The difference between training and validation accuracy also indicated room for improvement in the model's ability to generalize to unseen data.
 
 This motivated the exploration of a second approach based on **transfer learning**.
@@ -132,6 +134,8 @@ loss:         0.0365
 val_accuracy: 0.9397
 val_loss:     0.1533
 ```
+<img width="1577" height="989" alt="second method" src="https://github.com/user-attachments/assets/ec40e010-34b8-491a-9b2a-817d0d46edbe" />
+
 
 The transfer learning approach achieved higher validation accuracy than the custom CNN while also significantly reducing the complexity of the training process.
 
